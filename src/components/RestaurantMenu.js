@@ -42,10 +42,6 @@ const RestaurantMenu = () => {
             {item.card.info.price / 100 || item.card.info.defaultPrice / 100}
           </li>
         ))}
-        <li>Biryani</li>
-        <li>Burger</li>
-        <li>Pizza</li>
-        <li>Momos</li>
       </ul>
     </div>
   );
